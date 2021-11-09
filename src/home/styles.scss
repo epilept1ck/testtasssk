@@ -1,0 +1,55 @@
+.instructions-header {
+  user-select: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.instructions-title {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.instructions-toggle {
+  margin-left: 8px;
+  font-size: 12px;
+  color: gray;
+}
+
+.instruction-list {
+  margin-top: 0;
+}
+
+.fetch-jokes-button {
+  display: block;
+  padding: 16px;
+  background: #3a87ad;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 16px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background: darken(#3a87ad, 5%);
+  }
+}
+
+.auto-fave {
+  display: block;
+  margin: 16px 8px;
+  user-select: none;
+  text-align: center;
+
+  label,
+  input {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

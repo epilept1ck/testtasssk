@@ -1,0 +1,20 @@
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+a {
+  color: #ff5e5e;
+
+  &:visited {
+    color: #ff5e5e;
+  }
+}

@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ff5e5e;
+  color: white;
+}
+
+.title {
+  margin: 25px 0;
+  text-align: center;
+  letter-spacing: 2px;
+
+  a,
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.favourites {
+  position: absolute;
+  top: 26px;
+  right: 24px;
+}
+
+.favourites-title {
+  position: absolute;
+  right: 28px;
+  top: 2px;
+  color: white;
+}
+
+.favourite-count {
+  position: absolute;
+  top: 0;
+  height: 24px;
+  width: 24px;
+  color: #ff5e5e;
+  text-align: center;
+  font-size: 10px;
+  line-height: 2.4;
+}
+
+.main-content {
+  margin-top: 93px;
+}

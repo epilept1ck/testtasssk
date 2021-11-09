@@ -1,0 +1,46 @@
+@keyframes shake {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(2px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(-2px);
+  }
+}
+
+.joke {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &-favourite {
+    color: #ff5e5e;
+  }
+}
+
+.joke-text {
+  user-select: none;
+  display: inline-block;
+  width: calc(100% - 32px);
+  line-height: 1.5;
+}
+
+.joke-cant-fave {
+  animation: shake 0.5s ease;
+}
+
+.favourite-icon {
+  display: inline-block;
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "target": "es6",
+    "jsx": "react",
+    "strict": true,
+    "lib": ["dom", "es2015", "es2015.promise", "es2017.object"]
+  },
+  "exclude": ["node_modules"]
+}

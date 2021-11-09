@@ -1,0 +1,84 @@
+.login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ff5e5e;
+}
+
+.app-title {
+  margin-top: 48px;
+  text-align: center;
+  color: white;
+}
+
+.login-title {
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+.password-rules {
+  color: white;
+  text-align: center;
+}
+
+.password-input-container {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.password-input {
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  padding: 16px 46px 16px 8px;
+  font-size: 14px;
+}
+
+.show-password {
+  position: absolute;
+  display: inline-block;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  user-select: none;
+  color: gray;
+  font-size: 12px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.login-button {
+  $button-bg-color: darken(#3a87ad, 15%);
+
+  display: block;
+  padding: 8px;
+  background: $button-bg-color;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  margin: 8px auto 0;
+  font-size: 16px;
+  width: 200px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background: darken($button-bg-color, 5%);
+  }
+}
+
+.validation {
+  text-align: center;
+  color: lightpink;
+}
